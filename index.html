@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f417999dfc.js" crossorigin="anonymous"></script>
+    <title>Hi stef</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main class="main">
+        <div class="box-welcome">
+            <p class="hi">Hi stef</p>
+            <p class="main-btn">1 x klicken :)</p>
+        </div>
+        <section id="home" class="grid-main">
+            <div>
+                <div class="tree-image" style="visibility: hidden;">
+                    <a href=" https://www.animatedimages.org/cat-christmas-cards-705.htm"><img
+                            src="https://www.animatedimages.org/data/media/705/animated-christmas-card-image-0006.gif"
+                            alt="animated-christmas-card-image-0006" /></a>
+                    <h3>Frohe Weihnachten!</h3>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <script>
+        const mainBtn = document.querySelector('.main-btn');
+        mainBtn.addEventListener('click', toggleBtn);
+        function toggleBtn() {
+            document.querySelector('.box-welcome').style.display = "none";
+            document.querySelector('.tree-image').style.visibility = "visible";
+        }
+
+    </script>
+
+</body>
+
+</html>
